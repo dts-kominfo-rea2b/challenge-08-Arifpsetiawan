@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: turquoise;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 50vh;
+  min-height: 50vh;
+  padding: 2rem 0.5rem;
+  border-radius: 1rem;
+  background-color: lightblue;
+}
+
+#todo-title {
+  background-color: aqua;
+  padding: 0 1rem;
+}
+
+#todo-input {
+  height: 1.5rem;
+}
+
+#todo-submit {
+  height: 1.5rem;
+  cursor: pointer;
+  color: white;
+  background-color: lightcoral;
+}
+
+#output {
+  align-self: flex-start;
+}
